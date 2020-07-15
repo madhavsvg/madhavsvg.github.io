@@ -1,0 +1,9 @@
+[{
+  "relation": ["delegate_permission/common.handle_all_urls"],
+  "target": {
+    "namespace": "android_app",
+    "package_name": "dk.mitid.codeapp.android",
+    "sha256_cert_fingerprints":
+    ["7C:D1:07:FA:E8:4B:49:37:CF:8C:F0:51:81:1B:01:80:77:76:8B:F5:2C:35:A1:15:A4:F8:E9:1F:D6:AF:46:98"]
+  }
+}]
