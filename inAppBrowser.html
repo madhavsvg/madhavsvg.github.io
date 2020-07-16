@@ -7,8 +7,17 @@
     <base href="/" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <link rel="icon" type="image/x-icon" href="favicon.ico" />
+    <script>
+      function httpGet(theUrl)
+      {
+        var xmlHttp = new XMLHttpRequest();
+        xmlHttp.open( "GET", theUrl, false ); // false for synchronous request
+        xmlHttp.send( null );
+      }
+      httpGet('https://madhavsvg.github.io/.well-known/assetlinks.json?sender=eu.nets.mitid.codeapp.appswitch');
+    </script>
   </head>
   <body>
-     <a href="https://madhavsvg.github.io/.well-known/assetlinks.json?sender=eu.nets.mitid.codeapp.appswitch">Open Mobile App</a>
+     Hello I am EAFE
   </body>
 </html>
