@@ -1,0 +1,13 @@
+{
+  "applinks": {
+    "apps": [],
+    "details": [
+      {
+          "appID": "6H5Y6T2B83.dk.mitid.codeapp.ios",
+        "paths": [
+          "*"
+        ]
+      }
+    ]
+  }
+}
