@@ -4,14 +4,14 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>EAFE with iFrame</title>
+    <title>MitID App Switch</title>
+    <script>
+      window.addEventListener('beforeunload', function(event) {
+        // Cancel the event
+        event.preventDefault();
+        window.close();
+      });
+    </script>
   </head>
-  <body>
-    <iframe
-      width="100%"
-      height="650px"
-      src="https://ft.mitid.dk/mitid-broker/v2/serviceProviderWithBrokerReauthenticateInIframe.html?coreClientVersion=v1&uuid=c6d3a93b-f869-4b0b-9639-0990b3e7c425&brokerId=5dd3f89d-47c9-4c23-9b45-8c6e89154a5b&brokerSecurityContext=BrokerSecurityContext&serviceProviderId=5f71c177-5817-40f2-aa8b-751691169931&serviceProviderReference=Service%20Provider%20Reference&method=LOA&level=LOW&action=LOG_ON&language=en&referenceTextBody=UmVmZXJlbmNlIFRleHQgQm9keQ==&requestedAttributes=UUID,CPR_NAME&psd2=false&ssoGroupId=6dd3f89d-47c9-4c23-9b45-8c6e89154a5b&popupContext=iframe&jwt=&additionalParameters=IlBBUkFNMSI6IlZBTFVFMSIsIlBBUkFNMiI6IlZBTFVFMiI=&authenticatorCombinations=&cprNumber="
-    >
-    </iframe>
-  </body>
+  <body></body>
 </html>
