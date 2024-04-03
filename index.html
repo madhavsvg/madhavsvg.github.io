@@ -5,13 +5,12 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>MitID App Switch</title>
-    <script>
-      window.addEventListener('load', function(event) {
-        // Cancel the event
-        event.preventDefault();
-        window.close();
-      });
-    </script>
   </head>
-  <body></body>
+  <body onload="close()">
+    <script>
+      function close() {
+        window.close();
+      }
+    </script>
+  </body>
 </html>
